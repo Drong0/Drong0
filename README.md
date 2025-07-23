@@ -1,7 +1,9 @@
 <h1 align="center">Hi there 👋, I'm Olzhas</h1>
 <p align="center">💻 Back-end Developer | Python & Django Enthusiast | Cloud-native 🚀</p>
 
-<img src="https://i.imgur.com/A5PpH7Y.gif" width="100%" alt="banner"/>
+<p align="center">
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzBtZHJwbXBpbXBnMnA0MGNiMGNzNmZmbW8xMDFrMmpueXg0emQyeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Lny6Rw04nsOOc/giphy.gif" width="100%" />
+</p>
 
 ---
 
@@ -21,13 +23,13 @@
 ### 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Drong0&show_icons=true&theme=tokyonight" alt="stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Drong0&layout=compact&theme=tokyonight" alt="langs" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Drong0&show_icons=true&theme=radical" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Drong0&layout=compact&theme=radical" />
 </p>
 
 ---
 
-### 🔗 Connect with me
+### 📫 Connect with me
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin)](https://linkedin.com/in/olzhas-toishybek)
 [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github)](https://github.com/Drong0)
