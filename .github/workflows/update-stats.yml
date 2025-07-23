@@ -1,0 +1,31 @@
+name: Update README with GitHub Stats
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # каждый день в 00:00 UTC
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v3
+
+    - name: Generate GitHub Stats SVG
+      run: |
+        curl "https://github-readme-stats.vercel.app/api?username=Drong0&show_icons=true&count_private=true&theme=radical" -o stats.svg
+
+    - name: Embed stats into README
+      run: |
+        sed -i '/<!--STATS-->/r stats.svg' README.md
+        sed -i '/<!--STATS-->/d' README.md
+
+    - name: Commit & Push
+      run: |
+        git config --global user.email "actions@github.com"
+        git config --global user.name "GitHub Actions"
+        git add README.md
+        git commit -m "update: refreshed GitHub stats" || echo "No changes to commit"
+        git push
